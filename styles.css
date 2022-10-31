@@ -1,0 +1,143 @@
+/* * {
+    border: 1px solid red;
+} */
+body {
+    font-family: roboto;
+    margin: 0%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #1f2937;
+    color: aliceblue;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.logo {
+    width: auto;
+    height: 72px;
+    vertical-align:middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    
+}
+.presentacion button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+.img-about {
+    height: auto;
+    width: 500px;
+}
+.fotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: #1f2937;
+}
+.fotos-card {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 24px;
+    justify-content: center;
+}
+.fotos-card div {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.fotos-card img {
+    border: 5px #3882f6 solid;
+    border-radius: 10px;
+}
+
+.equipos {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 24px;
+}
+.equipos p {
+    margin-bottom: 0;
+}
+.firma {
+    align-self: flex-end;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+.reserva {
+    background-color: #3882f6;
+    margin: 56px 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 16px;
+    gap: 8px;
+}
+.reserva button {
+    border: #e5e7eb 2px solid;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 15px;
+    color: #f9faf8;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    margin: 0;
+    padding: 16px;
+}
